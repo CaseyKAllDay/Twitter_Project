@@ -86,10 +86,10 @@ def sql_push():
 engine = create_engine("mysql+pymysql://root:Sp0rk1ng.@167.99.172.188:3306/Tweets")
 
 #Twitter Credentials to access Twitter API
-ACCESS_TOKEN = "1021102643320508416-dtmvFo9XRJeAtZmTRPYubI5qJdgbs5"
-ACCESS_TOKEN_SECRET = "U75PNibuYtHorWytYY3m3qtgI5jrlUhPOMtVtRA7J8cPJ"
-CONSUMER_KEY = "8fkVUeXpvE0dKqqo0MSMUhBk2"
-CONSUMER_SECRET = "pupIKnVhkGujmXeNTIUESR3tfaTLDGAVABp6j2nIeQciFWnaac"
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
 
 outdoor_words = ['outdoors', 'camping', 'hiking', 'camping', 'wilderness', 'wildlife', 'o-zone', 'solar system',
                  'mountaineering', 'nationalpark', 'statepark', 'countypark', 'canyoneering', 'cycling', 'canoeing',
