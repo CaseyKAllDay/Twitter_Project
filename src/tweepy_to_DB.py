@@ -83,7 +83,7 @@ def sql_push():
 
 
 #DB connection
-engine = create_engine("mysql+pymysql://root:Sp0rk1ng.@167.99.172.188:3306/Tweets")
+engine = create_engine("mysql+pymysql://user:pass@167.99.172.188:3306/Tweets")
 
 #Twitter Credentials to access Twitter API
 ACCESS_TOKEN = ""
